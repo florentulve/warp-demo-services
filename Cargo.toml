@@ -1,5 +1,5 @@
 [package]
-name = "warp-demo"
+name = "warp-demo-services"
 version = "0.1.0"
 authors = ["Flo <florent.ulve@gmail.com>"]
 edition = "2018"
@@ -9,10 +9,6 @@ edition = "2018"
 [lib]
 name = "warpdemo"
 path = "src/lib.rs"
-
-[[bin]]
-name = "warpdemo"
-path = "src/bin.rs"
 
 [dependencies]
 log = "0.4"
